@@ -5,17 +5,8 @@
 		"@eslint/js": "latest",
 		"@playwright/test": "latest",
 		"eslint": "latest",
-		"glob": "latest",
-		"globals": "latest",
-		"netlify-cli": "latest"
+		"globals": "latest"
 	},
-	"scripts": {
-		"accept": "node bin/accept-snapshots.js",
-		"build": "node bin/prepare-screenshots.js",
-		"kill": "npx kill-port 3000",
-		"lint": "eslint .",
-		"start": "netlify dev",
-		"test": "playwright test"
-	},
+	"scripts": {},
 	"type": "module"
 }
